@@ -1,5 +1,5 @@
 import { Outlet, Link } from "react-router-dom";
-import schlogo from './schlogo.png';
+import chlogo from './chlogo2.png';
 
 
 const Layout = () => {
@@ -8,27 +8,27 @@ const Layout = () => {
             
       <header style={{position:"fixed",width:"100%"}}>
        
-        <div style={{backgroundColor:"black",display:"inline-block",marginLeft:"0px",marginRight:"100px"}}><img src={schlogo} className="deptlogo" alt="Ug DCS logo"   ></img></div>
+        <div style={{backgroundColor:"black",display:"inline-block",marginLeft:"0px",marginRight:"100px"}}><img src={chlogo} className="churchlogo" alt="Church logo"   ></img></div>
         <div id="horiznav"style={{display:"inline-block"}}>
           <ul className="horiznav" style={{backgroundColor:"black"}}>
             
             <li>
-              <Link style={{color:"#BD9C6C",textDecoration:"none"}} to="./Homepage">Homepage</Link>
+              <Link style={{color:"white",textDecoration:"none"}} to="./Homepage">Homepage</Link>
             </li>
             <li>
-              <Link style={{color:"#BD9C6C",textDecoration:"none"}} to="./Aboutus">About Us</Link>
+              <Link style={{color:"white",textDecoration:"none"}} to="./Aboutus">About Us</Link>
             </li>
             <li>
-              <Link style={{color:"#BD9C6C",textDecoration:"none"}} to="./Sermon">Sermon</Link>
+              <Link style={{color:"white",textDecoration:"none"}} to="./Sermon">Sermon</Link>
             </li>
             <li>
-              <Link style={{color:"#BD9C6C",textDecoration:"none"}} to="./Blog">Blog</Link>
+              <Link style={{color:"white",textDecoration:"none"}} to="./Blog">Blog</Link>
             </li>
             <li>
-              <Link style={{color:"#BD9C6C",textDecoration:"none"}} to="./Donation">Donation</Link>
+              <Link style={{color:"white",textDecoration:"none"}} to="./Donation">Donation</Link>
             </li>
             <li>
-              <Link style={{color:"#BD9C6C",textDecoration:"none"}} to="./Contact">Contact Us</Link>
+              <button id="contact" style={{borderRadius:"10px", marginLeft:"300px",}}><Link style={{color:"white",textDecoration:"none"}} to="./Contact">Contact Us</Link></button>
             </li>
             
           </ul>

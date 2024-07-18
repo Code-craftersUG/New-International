@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -7,9 +8,15 @@ header{
   width:100%;
   
 }
-.deptlogo{
-  width: 300px;
+.churchlogo{
+  width: 145px;
   margin-left: 0px;
+  height: 65px;
+}
+#contact{
+  width: 180px;
+  height: 56px;
+  background-color: #FB8910;
 }
 ul{
   list-style: none;
@@ -78,4 +85,10 @@ ul.horiznav{
   to {
     transform: rotate(360deg);
   }
+}
+.imagecontainer{
+  width: 1500px;
+  height: 663px;
+  background-color: #61dafb;
+  
 }
