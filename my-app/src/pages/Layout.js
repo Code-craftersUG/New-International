@@ -6,7 +6,7 @@ const Layout = () => {
     return (
       <>
             
-      <header style={{position:"fixed",width:"100%"}}>
+      <header style={{position:"fixed",width:"100%",marginTop:"0px"}}>
        
         <div style={{backgroundColor:"black",display:"inline-block",marginLeft:"0px",marginRight:"100px"}}><img src={chlogo} className="churchlogo" alt="Church logo"   ></img></div>
         <div id="horiznav"style={{display:"inline-block"}}>

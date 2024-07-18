@@ -6,6 +6,8 @@ header{
   position:fixed;
   background-color:black;
   width:100%;
+  margin-top: 0px;
+  margin-bottom: -15px;
   
 }
 .churchlogo{
@@ -87,8 +89,41 @@ ul.horiznav{
   }
 }
 .imagecontainer{
-  width: 1500px;
+  width: 1800px;
   height: 663px;
   background-color: #61dafb;
+  display: flex;
+  flex:50%,50%;
+
   
+}
+.welcome1{
+  display:flex;
+  flex-shrink: 1;
+  margin-right: 400px;
+  width: 592px;
+  height: 407px;
+  margin-top: 100px;
+  padding-left: 50px;
+  padding-top: 0px;
+  flex-direction: column;
+
+
+
+}
+.welcome2{
+  display:flex;
+  flex-shrink: 1;
+  margin-left: 2px;
+  width: 423px;
+  height: 562px;
+  margin-top: 100px;
+  justify-content: end;
+  flex-direction: column-reverse;
+  align-content: flex-end;
+  align-items: end;
+  margin-right: 0px;
+
+
+
 }
