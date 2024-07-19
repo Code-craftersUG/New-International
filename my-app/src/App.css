@@ -89,11 +89,12 @@ ul.horiznav{
   }
 }
 .imagecontainer{
-  width: 1800px;
+  width: 1520px;
   height: 663px;
   background-color: #61dafb;
   display: flex;
   flex:50%,50%;
+  margin-bottom: 0px;
 
   
 }
@@ -126,4 +127,33 @@ ul.horiznav{
 
 
 
+}
+.relevance{
+  width:1520px;
+  height: 5517px;
+  background-color:rgba(255, 210, 164, 0.45);
+  margin-top: 0px;
+  
+}
+.involved{
+  display: flex;
+
+}
+.getinvolved{
+  width: 411px;
+  margin-right: 10px;
+  height:380px;
+  background-color:#FFF5EB;
+}
+.getinvolved1{
+  width: 411px;
+  margin-right: 10px;
+  height:380px;
+  background-color:#FFF5EB;
+  margin-left: 110px;
+}
+.icon{
+  margin-top: 80px;
+  align-self: flex-start;
+  margin-left: 0px;
 }
