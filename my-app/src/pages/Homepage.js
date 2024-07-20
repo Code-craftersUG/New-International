@@ -3,6 +3,9 @@ import chlogo from './chlogo2.png';
 import icon1 from './Icon1.png';
 import icon2 from './icon2.png';
 import icon3 from './icon3.png';
+import image12 from './image12.png'
+import image11 from './image11.png'
+import image10 from './image10.png'
 
 const Homepage = () => {
     return(
@@ -95,6 +98,34 @@ const Homepage = () => {
                 </div>
                     
                 </div>
+            </div>
+            <br></br>
+            <br></br>
+            <div>
+                <p style ={{fontSize:"-50px",fontWeight:"lighter"}}>ABOUT US </p>
+                <p style ={{fontSize:"30px",fontWeight:"bold"}}>LOVE AND COMPASSION</p>
+                <p style ={{fontSize:"smaller",fontWeight:"lighter",textAlign:"center",marginBottom:"0px"}}>Embracing God's love, we extend compassion to all. Our doors are open to those seeking refuge, comfort, and support. Through </p>
+                <p style ={{fontSize:"smaller",fontWeight:"lighter",textAlign:"center",marginTop:"0px"}}>   prayer, counseling, and care, we share the healing power of love, fostering
+                   a sense of belonging and hope in our community</p>
+                <br></br>
+                <br></br>
+                <br></br>
+                <button style={{borderRadius:"10px",width:"205px",height:"64px",backgroundColor:"#FFD2A4",borderColor:"#FFD2A4"}}>READ MORE</button>
+
+            </div>
+            <br></br>
+            <br></br>
+            <div className="involved" style={{marginLeft:"300px"}}>
+               <div className="getinvolved1" style={{width:"200px",height:"300px",borderRadius:"20px",marginRight:"20px"}}>
+               <img src={image11} style={{width:"200px",height:"300px"}}className="prayer1" alt="prayer1 "   ></img>
+               
+               </div>
+               <div className="getinvolved" style={{width:"300px",height:"400px",borderRadius:"20px",marginTop:"50px",objectFit:"contain",marginRight:"20px"}}>
+               <img src={image12} style={{width:"300px",height:"400px"}}className="prayer2" alt="prayer2 "   ></img>
+               </div>
+               <div className="getinvolved" style={{width:"200px",height:"300px",borderRadius:"20px"}}>
+               <img src={image10} style={{width:"200px",height:"300px"}}className="prayer1" alt="prayer3 "   ></img>
+               </div>
             </div>
 
 
