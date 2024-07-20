@@ -13,7 +13,7 @@ const Layout = () => {
           <ul className="horiznav" style={{backgroundColor:"black"}}>
             
             <li>
-              <Link style={{color:"white",textDecoration:"none"}} to="./Homepage">Homepage</Link>
+              <Link style={{color:"white",textDecoration:"none"}} to="./Homepage">Home</Link>
             </li>
             <li>
               <Link style={{color:"white",textDecoration:"none"}} to="./Aboutus">About Us</Link>

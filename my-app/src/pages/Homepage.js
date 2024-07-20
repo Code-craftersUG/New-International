@@ -3,10 +3,14 @@ import chlogo from './chlogo2.png';
 import icon1 from './Icon1.png';
 import icon2 from './icon2.png';
 import icon3 from './icon3.png';
-import image12 from './image12.png'
-import image11 from './image11.png'
-import image10 from './image10.png'
-import shape from './Shape.png'
+import image12 from './image12.png';
+import image11 from './image11.png';
+import image10 from './image10.png';
+import shape from './Shape.png';
+import romansis from './romansis.png';
+import item from './Item.png';
+import pastor1 from './pastor1.png'
+import rosary from './rosarywoman.png'
 
 const Homepage = () => {
     return(
@@ -146,6 +150,79 @@ const Homepage = () => {
             <p style ={{fontSize:"-50px"}}>WATCH AND  LISTEN</p>
             <p style = {{fontSize:"+50px", fontWeight:"bolder",marginBottom:"0px"}}>THE BENEFITS OF</p>
             <p style = {{fontSize:"+50px", fontWeight:"bolder",marginTop:"0px"}}>JOINING OUR CHURCH</p>
+            <div className='sermons'>
+                <div className='listen' style={{backgroundImage: `url(${romansis})`}}>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <p style={{marginBottom:'0px',fontWeight:"bolder",color:"white"}}>WATCH AND LISTEN TO </p>
+                    <p style={{marginTop:'0px',fontWeight:"bolder",color:"white"}}>OUR SERMONS </p>
+
+                </div>
+                <div className='listen'style={{backgroundImage: `url(${item})`}}>
+                <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    {/* <p style={{marginBottom:'0px',fontWeight:"bolder"}}>WATCH AND LISTEN TO </p>
+                    <p style={{marginTop:'0px',fontWeight:"bolder"}}>OUR SERMONS </p> */}
+                </div>
+                <div className='listen' style={{backgroundImage: `url(${pastor1})`}}>
+                <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <p style={{marginBottom:'0px',fontWeight:"bolder",color:'white'}}>WATCH AND LISTEN TO </p>
+                    <p style={{marginTop:'0px',fontWeight:"bolder",color:'white'}}>OUR SERMONS </p>
+                </div>
+                <div className='listen' style={{backgroundImage: `url(${rosary})`}}>
+                <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <p style={{marginBottom:'0px',fontWeight:"bolder",color:'white'}}>WATCH AND LISTEN TO </p>
+                    <p style={{marginTop:'0px',fontWeight:"bolder",color:'white'}}>OUR SERMONS </p>
+                </div>
+                
+
+            </div>
 
             </div>
 

@@ -157,3 +157,14 @@ ul.horiznav{
   align-self: flex-start;
   margin-left: 0px;
 }
+.sermons{
+  display: flex;
+  margin-left: 100px;
+
+}
+.listen{
+  width: 302px;
+  margin-right: 10px;
+  height:384px;
+  background-color:#FFF5EB;
+}
