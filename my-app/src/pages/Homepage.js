@@ -6,12 +6,14 @@ import icon3 from './icon3.png';
 import image12 from './image12.png'
 import image11 from './image11.png'
 import image10 from './image10.png'
+import shape from './Shape.png'
 
 const Homepage = () => {
     return(
         <>
         
-        <div className="imagecontainer" style={{backgroundImage:{image7}}}>
+        <div className="imagecontainer" style={{backgroundImage: `url(${image7})`}}>
+        
             <div className="welcome1">
                 <h6 style={{color:'white',marginBottom:"20px",textAlign:'left'}}>WELCOME TO OUR CHURCH</h6>
                 <h2 style={{color:'white',fontSize:+40,textAlign:'left'}}>BECOME A PART OF OUR COMMUNITY</h2>
@@ -126,6 +128,25 @@ const Homepage = () => {
                <div className="getinvolved" style={{width:"200px",height:"300px",borderRadius:"20px"}}>
                <img src={image10} style={{width:"200px",height:"300px"}}className="prayer1" alt="prayer3 "   ></img>
                </div>
+            </div>
+            <div>
+                <p style ={{fontSize:"-50px",fontWeight:"lighter"}}>OUR MISSION &amp; VISION</p>
+                <p style ={{fontSize:"30px",fontWeight:"bold"}}>CELEBRATE WITH US</p>
+                <p style ={{fontSize:"smaller",fontWeight:"lighter",textAlign:"center",marginBottom:"0px"}}>Join us in joyful worship, special events, and milestones. Let's celebrate God's  </p>
+                <p style ={{fontSize:"smaller",fontWeight:"lighter",textAlign:"center",marginTop:"0px"}}>   love and blessings together! </p>
+                
+                <p style={{textAlign:"center",display:"Inline-block"}}>Read More</p>
+                <img src={shape} className="icon" alt="arrow right shape" style={{display:"Inline-block",width:"18px",height:"10px"}}  ></img>
+
+            </div>
+            <div style={{backgroundColor:"white", height:"871px",width:"1500px"}}>
+                <br></br>
+                <br></br>
+                <br></br>
+            <p style ={{fontSize:"-50px"}}>WATCH AND  LISTEN</p>
+            <p style = {{fontSize:"+50px", fontWeight:"bolder",marginBottom:"0px"}}>THE BENEFITS OF</p>
+            <p style = {{fontSize:"+50px", fontWeight:"bolder",marginTop:"0px"}}>JOINING OUR CHURCH</p>
+
             </div>
 
 
