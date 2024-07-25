@@ -11,6 +11,13 @@ import romansis from './romansis.png';
 import item from './Item.png';
 import pastor1 from './pastor1.png'
 import rosary from './rosarywoman.png'
+import clock from './clockicon.png'
+import location from './loc.png'
+import night from './night.png'
+import cross from './cross.png'
+import arrow from './Arrow.png'
+import image16 from './image16.png'
+import palm from './palm.png'
 
 const Homepage = () => {
     return(
@@ -223,8 +230,88 @@ const Homepage = () => {
                 
 
             </div>
+            
 
             </div>
+
+            <p style ={{fontSize:"-50px",marginTop:"100px"}}>UPCOMING SERMONS</p>
+            <p style = {{fontSize:"+50px", fontWeight:"bolder",marginBottom:"0px"}}>JOIN US AND BECOME PART</p>
+            <p style = {{fontSize:"+50px", fontWeight:"bolder",marginTop:"0px"}}>OF SOMETHING GREAT</p>
+            <br></br>
+            <br></br>
+            <div className="upcome" style={{marginLeft:"100px"}}>
+                <div className="stream" style={{width:"435px",height:"512px",backgroundColor:"rgba(255, 245, 235, 1)"}}>
+                    <div id="datebox" style={{width:"32px",height:"47px",marginBottom:"0px"}}>
+                        <p style={{fontWeight:"bolder", fontSize:"+10px"}}> 20</p>
+                        <p style={{ fontSize:"+10px"}}> July</p>
+
+                    </div>
+                    <div style ={{marginTop:"0px",textAlign:"left", marginLeft:"100px"}}>
+                    <p style ={{fontSize:"-50px",marginTop:"0px",textAlign:"left", color:"hsba(27, 100%, 99%, 1)"}}>
+                        UPCOMING EVENT
+                    </p>
+                    <p style = {{fontSize:"+20px", fontWeight:"bolder",marginBottom:"0px"}}>WATCH AND LISTEN TO  </p>
+                    <p style = {{fontSize:"+20px", fontWeight:"bolder",marginTop:"0px"}}>OUR SERMONS</p>
+                    
+                    <p style={{marginBottom:"0px", fontSize:"10px"}}>Strengthen your faith in the lord and He </p>
+                    <p style={{marginTop:"0px",fontSize:"10px"}}>will never let you down</p>
+
+                    <img src={clock} className="icon" alt="Clock logo" style={{display:"inline-block"}}  ></img>
+                    <p style={{display:"inline-block",fontSize:"10px",marginBottom:"0px"}} >Friday 23:39 PM</p>
+                    <p style={{fontSize:"10px", marginLeft:"18px",marginTop:"0px",marginBottom:"0px"}}>Saturday 21:20 PM</p>
+                    <img src={location} className="icon" alt="location logo"   ></img>
+                    <p style={{display:"inline-block",fontSize:"10px",marginBottom:"0px"}} >ACCRA,GHANA</p>
+                    <button style={{width:"215px",height:"64px",display:"block", backgroundColor:"rgba(22, 23, 34, 1)", color:"rgba(255, 210, 164, 1)",borderRadius:"6px"}}>STREAM LIVE</button>
+                    
+
+
+
+                    
+
+                    </div>
+                    
+
+                </div>
+                <div style={{width:"612px",height:"512px"}}>
+                <img src={night}  alt="prayer night"   ></img>
+
+                </div>
+                <div style={{width:"234px",height:"512px", backgroundColor:"white"}}>
+                <img src={cross}  alt="cross"   ></img>
+
+
+                </div>
+
+            </div>
+            <p style={{display:"inline-block", textAlign:"right"}}>View all sermons</p>
+            <img src={arrow} alt="arrow"  style={{display:"inline-block"}}></img>
+            <br></br>
+            <div style={{width:"1500px",height:"736px",backgroundImage: `url(${image16})`,backgroundColor:"white"}}>
+                <br></br>
+                <br></br>
+                <div style={{width:"768px",height:"480px",backgroundColor:"white",marginLeft:"300px",marginTop:"100px",display:"flex"}}>
+                    <div style={{width:"50%",height:"480px"}}>
+                        <br></br>
+                        <br></br>
+                        <h1 style={{marginBottom:"0px",marginLeft:"50px",textAlign:"left"}}> FUEL THE VISION, </h1>
+                        <h1 style={{marginTop:"0px",marginLeft:"50px",marginBottom:"0px",textAlign:"left"}}>SUPPORT OUR </h1>
+                        <h1 style={{marginTop:"0px",marginLeft:"50px",textAlign:"left"}}>MISSION.</h1>
+                        <p style={{marginBottom:"0px",marginLeft:"50px",textAlign:"left"}}>"Supporting the work of the ministry"</p>
+                        <p style={{textAlign:"left",marginTop:"0px",marginLeft:"50px"}}>(2 Corithians 11:8-9)</p>
+                        <br></br>
+                        <br></br>
+                        <button style={{width:"182px",height:"64px",backgroundColor:"rgba(255, 210, 164, 1)",borderRadius:"5px",borderColor:"rgba(255, 210, 164, 1)"}}>Donate</button>
+
+                    </div>
+                    <div style={{width:"50%",height:"480px"}}>
+                      <img src={palm} alt="logo of palm"  style={{marginTop:"150px"}}></img>
+
+                    </div>
+
+                </div>
+
+            </div>
+
 
 
         </div>
