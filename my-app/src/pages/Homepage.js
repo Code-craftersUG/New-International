@@ -309,6 +309,89 @@ const Homepage = () => {
                     </div>
 
                 </div>
+                <div style={{width:"768px", height:"16px",backgroundColor:"rgba(255, 210, 164, 1)",marginLeft:"300px"}}></div>
+
+            </div>
+            <p style ={{fontSize:"-50px",marginTop:"100px"}}>READ OUR BLOG</p>
+            <h2 style ={{fontSize:"48px"}}>SHARE, INSPIRE,INNOVATE</h2>
+            <div className='sermons'>
+            <div className='listen' style={{backgroundColor:"rgba(255, 245, 235, 1)"}}>
+                <br></br>
+                    
+                <p style={{marginBottom:'0px',fontWeight:"bolder",textAlign:"left",marginLeft:"50px",fontSize:"12px",color:"rgba(253, 113, 0, 1)"}}>RELATIONSHIP </p>
+                    <p style={{marginBottom:'0px',fontWeight:"bolder",color:'black',textAlign:"left",marginLeft:"50px"}}>WATCH AND LISTEN TO </p>
+                    <p style={{marginTop:'0px',fontWeight:"bolder",color:'black',textAlign:"left",marginLeft:"50px"}}>OUR SERMONS </p>
+                    <p style={{marginTop:'0px',fontWeight:"400",color:'black',textAlign:"left",marginLeft:"50px"}}>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                    </p>
+                    <br></br>
+                    <p style={{marginTop:'0px',fontWeight:"bolder",color:'black',textAlign:"left",marginLeft:"50px",marginBottom:'0px'}}>
+                    By Mathew Johnson
+                    </p>
+                    <p style={{marginTop:'0px',fontWeight:"bolder",color:'black',textAlign:"left",marginLeft:"50px"}}>
+                    Tuesday 13 May,2021
+                    </p>
+
+
+                </div>
+                <div className='listen' style={{backgroundColor:"rgba(255, 245, 235, 1)"}}>
+                <br></br>
+                    
+                <p style={{marginBottom:'0px',fontWeight:"bolder",textAlign:"left",marginLeft:"50px",fontSize:"12px",color:"rgba(253, 113, 0, 1)"}}>RELATIONSHIP </p>
+                    <p style={{marginBottom:'0px',fontWeight:"bolder",color:'black',textAlign:"left",marginLeft:"50px"}}>WATCH AND LISTEN TO </p>
+                    <p style={{marginTop:'0px',fontWeight:"bolder",color:'black',textAlign:"left",marginLeft:"50px"}}>OUR SERMONS </p>
+                    <p style={{marginTop:'0px',fontWeight:"400",color:'black',textAlign:"left",marginLeft:"50px"}}>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                    </p>
+                    <br></br>
+                    <p style={{marginTop:'0px',fontWeight:"bolder",color:'black',textAlign:"left",marginLeft:"50px",marginBottom:'0px'}}>
+                    By Mathew Johnson
+                    </p>
+                    <p style={{marginTop:'0px',fontWeight:"bolder",color:'black',textAlign:"left",marginLeft:"50px"}}>
+                    Tuesday 13 May,2021
+                    </p>
+
+
+                </div>
+                <div className='listen' style={{backgroundColor:"rgba(255, 245, 235, 1)"}}>
+                <br></br>
+                    
+                <p style={{marginBottom:'0px',fontWeight:"bolder",textAlign:"left",marginLeft:"50px",fontSize:"12px",color:"rgba(253, 113, 0, 1)"}}>RELATIONSHIP </p>
+                    <p style={{marginBottom:'0px',fontWeight:"bolder",color:'black',textAlign:"left",marginLeft:"50px"}}>WATCH AND LISTEN TO </p>
+                    <p style={{marginTop:'0px',fontWeight:"bolder",color:'black',textAlign:"left",marginLeft:"50px"}}>OUR SERMONS </p>
+                    <p style={{marginTop:'0px',fontWeight:"400",color:'black',textAlign:"left",marginLeft:"50px"}}>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                    </p>
+                    <br></br>
+                    <p style={{marginTop:'0px',fontWeight:"bolder",color:'black',textAlign:"left",marginLeft:"50px",marginBottom:'0px'}}>
+                    By Mathew Johnson
+                    </p>
+                    <p style={{marginTop:'0px',fontWeight:"bolder",color:'black',textAlign:"left",marginLeft:"50px"}}>
+                    Tuesday 13 May,2021
+                    </p>
+
+
+                </div>
+                <div className='listen' style={{backgroundColor:"rgba(255, 245, 235, 1)"}}>
+                <br></br>
+                    
+                <p style={{marginBottom:'0px',fontWeight:"bolder",textAlign:"left",marginLeft:"50px",fontSize:"12px",color:"rgba(253, 113, 0, 1)"}}>RELATIONSHIP </p>
+                    <p style={{marginBottom:'0px',fontWeight:"bolder",color:'black',textAlign:"left",marginLeft:"50px"}}>WATCH AND LISTEN TO </p>
+                    <p style={{marginTop:'0px',fontWeight:"bolder",color:'black',textAlign:"left",marginLeft:"50px"}}>OUR SERMONS </p>
+                    <p style={{marginTop:'0px',fontWeight:"400",color:'black',textAlign:"left",marginLeft:"50px"}}>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                    </p>
+                    <br></br>
+                    <p style={{marginTop:'0px',fontWeight:"bolder",color:'black',textAlign:"left",marginLeft:"50px",marginBottom:'0px'}}>
+                    By Mathew Johnson
+                    </p>
+                    <p style={{marginTop:'0px',fontWeight:"bolder",color:'black',textAlign:"left",marginLeft:"50px"}}>
+                    Tuesday 13 May,2021
+                    </p>
+
+
+                </div>
+                
 
             </div>
 
